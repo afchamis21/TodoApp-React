@@ -1,0 +1,44 @@
+.openTodosBody_loading{
+    margin: 1.5rem auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading_icon{
+    animation: spin 2s infinite;
+}
+
+.openTodosBody_loaded{
+    margin: 1.5rem auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.card{
+    background-color: var(--gray-200);
+    transition: background-color 0.2s;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: var(--gray-300);
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

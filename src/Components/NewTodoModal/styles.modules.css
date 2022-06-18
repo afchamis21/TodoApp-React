@@ -1,0 +1,39 @@
+.todo_title{
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.todo_title > input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    font-size: 1rem;
+    background-color: var(--gray-100);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.todo_description{
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+}
+
+.todo_description > textarea{
+    flex: 1;
+    padding: 0.25rem;
+    font-size: 1rem;
+    resize: none;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.createTodoButton{
+    margin-top: 1rem;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #006400;
+
+}
